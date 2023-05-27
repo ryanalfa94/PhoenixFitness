@@ -1,19 +1,14 @@
 import './App.css';
+import { TextField } from '@material-ui/core'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="search-bar-container">
+        <div class="search-bar">
+          <TextField fullWidth id="search-bar" label="Seach For Workouts" variant="outlined">Search For Workouts</TextField>
+        </div>
+      </div>
     </div>
   );
 }
